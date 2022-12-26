@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a99f633c84e44179bfbf4c57b14e82bb" Name="Diagram1">
+        <EntityTypeShape EntityType="TablewareModel.Categorys" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.Manufacturer" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.Order" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.OrderProduct" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.Pickupoint" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.Role" Width="1.5" PointX="1.5" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TablewareModel.User" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="TablewareModel.FK_Product_Categorys" ManuallyRouted="false" />
+        <AssociationConnector Association="TablewareModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="TablewareModel.FK_Order_Pickupoint" ManuallyRouted="false" />
+        <AssociationConnector Association="TablewareModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TablewareModel.FK_OrderProduct_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="TablewareModel.FK__OrderProd__Produ__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="TablewareModel.FK__User__UserRole__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
